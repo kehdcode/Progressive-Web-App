@@ -12,6 +12,13 @@
     <ul id="people">
 
     </ul>
-    <script async src="app.js/app.js"> </script>
+    <script async src="js/app.js">
+        if ('serviceWorker' in navigator){
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+     </script>
+
 </body>
 </html>
