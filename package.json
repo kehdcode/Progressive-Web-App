@@ -1,0 +1,20 @@
+{
+  "name": "Progressive-Web-App",
+  "version": "1.0.0",
+  "description": "A simple PWA using vanilla Javascript and workbox.",
+  "main": "index.js",
+  "scripts": {
+  "serve" : "http-server -p 1336 build -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kehdcode/Progressive-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kehdcode/Progressive-Web-App/issues"
+  },
+  "homepage": "https://github.com/kehdcode/Progressive-Web-App#readme"
+}
